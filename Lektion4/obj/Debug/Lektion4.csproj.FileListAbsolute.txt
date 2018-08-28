@@ -1,0 +1,7 @@
+C:\Users\Dennis\source\repos\Programeringteknik C#\Lektion4\bin\Debug\Lektion4.exe.config
+C:\Users\Dennis\source\repos\Programeringteknik C#\Lektion4\bin\Debug\Lektion4.exe
+C:\Users\Dennis\source\repos\Programeringteknik C#\Lektion4\bin\Debug\Lektion4.pdb
+C:\Users\Dennis\source\repos\Programeringteknik C#\Lektion4\obj\Debug\Lektion4.csprojAssemblyReference.cache
+C:\Users\Dennis\source\repos\Programeringteknik C#\Lektion4\obj\Debug\Lektion4.csproj.CoreCompileInputs.cache
+C:\Users\Dennis\source\repos\Programeringteknik C#\Lektion4\obj\Debug\Lektion4.exe
+C:\Users\Dennis\source\repos\Programeringteknik C#\Lektion4\obj\Debug\Lektion4.pdb
