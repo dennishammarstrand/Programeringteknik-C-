@@ -97,25 +97,6 @@ namespace Inlämningsuppgift1
             Console.WriteLine("Antal Ä: " + äCounter);
             Console.WriteLine("Antal Ö: " + öCounter);
             Console.WriteLine("Texten utan svenska bokstäver: " + translated);
-
-
-
-
-            //for (int i = 0; i < inputText.Length - 1; i++)
-            //{
-            //    if (inputText[i] == 'Å' || inputText[i] == 'å' || inputText[i] == 'Ä' || inputText[i] == 'ä' ||
-            //            inputText[i] == 'Ö' || inputText[i] == 'ö')
-            //    {
-            //        isSwedish = "Texten verkar vara på svenska";
-            //        swedishLetters++;
-            //    }
-            //    else
-            //    {
-            //        isSwedish = "Texten är inte på svenska";
-            //    }
-            //}
-            //Console.WriteLine(isSwedish);
-            //Console.WriteLine("Antal svenska bokstäver: " + swedishLetters);
         }
     }
 }
