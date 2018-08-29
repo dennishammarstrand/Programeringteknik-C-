@@ -90,43 +90,38 @@ namespace Lektion4
             string text = Console.ReadLine();
             string vowels = "YyAaEeIiOoUu";
             string removedVowels = "";
-            bool isVowel = true;
-            
+            int hitVowel = 0;
+
+            //foreach (char t in text)
+            //{
+            //    foreach (char v in vowels)
+            //    {
+            //        if (t == v)
+            //        {
+            //            hitVowel++;
+            //        }
+            //    }
+            //    if (hitVowel > 0)
+            //    {
+            //        removedVowels = removedVowels + text[t];
+            //    }
+            //}
+
 
             for (int i = 0; i < text.Length; i++)
             {
-                if (text[i] == 'a' || text[i] == 'e' || text[i] == 'i' || text[i] == 'o' || 
-                        text[i] == 'u' || text[i] == 'y') 
+                if (text[i] == 'a' || text[i] == 'e' || text[i] == 'i' || text[i] == 'o' ||
+                        text[i] == 'u' || text[i] == 'y')
                 {
-                    
+
                 }
                 else
                 {
                     removedVowels = removedVowels + text[i];
                 }
-                //for (int j = 0; j < vowels.Length - 1; j++)
-                //{
-                //    if (vowels[j] == text[i])
-                //    {
-                //        isVowel = true;
-                //        //break;
-                //    }
-                //    else
-                //    {
-                //        isVowel = false;
-                //    }
-                //}
-                //if (isVowel == true)
-                //{
-                //    removedVowels += "";
-                //}
-                //else
-                //{
-                //    removedVowels += text[i];
-                //}
             }
             Console.WriteLine(removedVowels);
-            
+
 
             /*
             //Exercise 5 Every other asterisk
