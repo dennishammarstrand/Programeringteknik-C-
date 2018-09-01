@@ -23,15 +23,56 @@ namespace Lektion5
             Console.WriteLine(inputText);
             */
 
-            List<int> numbersSum = new List<int> { };
+            /*
+            //Exercise 2 Sum inputed numbers
+            List<int> numbers = new List<int> { };
 
             while (true)
             {
-                    int number = int.Parse(Console.ReadLine());
-                    numbersSum.Add(number);
+                string text = Console.ReadLine();
+                bool enterKey = text == "";
+
+                if (!enterKey)
+                {
+                    int number = int.Parse(text);
+                    numbers.Add(number);
+                }
+                else
+                {
+                    break;
+                }
             }
+            int total = numbers.Sum();
+            Console.WriteLine(total);
+            */
+            
+            Dictionary<string, int> words = new Dictionary<string, int>();
+            string text = Console.ReadLine();
+            string lText = text.ToLower();
 
+            string[] split = lText.Split(new Char[] { ' ', ',', '.', ':', '?' });
 
+            foreach (string s in split)
+            {
+                if (s.Trim() != "")
+                {
+                    if (words.ContainsKey(s))
+                    {
+                        words[s] = words[s] + 1;
+                    }
+                    else
+                    {
+                        words[s] = 1;
+                    }
+                }
+            }
+            foreach (KeyValuePair<string, int> pair in words)
+            {
+                if (pair.Value == words.Values.Max())
+                {
+                    Console.WriteLine("The most frequent word is: " + pair.Key );
+                }
+            }
         }
     }
 }
